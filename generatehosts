@@ -173,7 +173,7 @@ do {
   $host{type}=1;
   $host{zone}=$zoneid;
   $host{grp}=$gid;
-  $host{ip}=[[0,$ip_c,'t',($opt_noreverse ? 'f' : 't')]];
+  $host{ip}=[[0,$ip_c,($opt_noreverse ? 'f' : 't'),'t']];
   $host{huser}=tag_expand($infof[0]) if ($infof[0]);
   $host{dept}=tag_expand($infof[1]) if($infof[1]);
   $host{location}=tag_expand($infof[2]) if($infof[2]);
