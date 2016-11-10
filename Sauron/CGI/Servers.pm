@@ -49,7 +49,7 @@ my %server_form = (
    type=>'int', len=>10},
   {ftype=>1, tag=>'ttl', name=>'Default TTL', type=>'int', len=>10},
   {ftype=>2, tag=>'txt', name=>'Default zone TXT', type=>['text','text'],
-   fields=>2, len=>[40,15], empty=>[0,1], elabels=>['TXT','comment']},
+   fields=>2, len=>[80,15], empty=>[0,1], elabels=>['TXT','comment']},
 
   {ftype=>0, name=>'Paths'},
   {ftype=>1, tag=>'directory', name=>'Configuration directory', type=>'path',
